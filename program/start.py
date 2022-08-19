@@ -63,11 +63,15 @@ async def start_(client: Client, message: Message):
     await message.reply_photo(
         photo=f"{BOT_PHOTO}",
         caption=f"""✨ **مرحبا عزيزي » {message.from_user.mention()} !**\n
-💭 **᥀︙انا بوت استطيع تشغيل الاغاني والموسيقى في المكالمات  الصوتية! 
+•═════•| Tᥱᥣᥱꪔᥱꪎ Mᥙ᥉Ꭵᥴ |•═════•
 
-᥀︙ لمعرفة اوامر هذا البوت اضغط على » اوامر التشغيل!
+📀 انا بوت اختصاصي تشغيل الاغاني والفديوهات في المكالمات  .
 
-᥀︙ لمعرفة طريقة تشغيل هذا البوت اضغط على » طريقة التشغيل!
+⚡️ البوت يعمل بسرعه عاليه ولا يوجد تقطيع .
+
+📌 ضيف البوت الي مجموعتك واستمتع .
+
+•═════•| Tᥱᥣᥱꪔᥱꪎ Mᥙ᥉Ꭵᥴ |•═════•
 """,
         reply_markup=InlineKeyboardMarkup(
             [
@@ -84,7 +88,7 @@ async def start_(client: Client, message: Message):
                         "‹ كروب الدعم › ", url=f"https://t.me/{GROUP_SUPPORT}"
                     ),
                     InlineKeyboardButton(
-                        "‹ قناة السورس ›", url=f"https://t.me/EITHON1"
+                        "‹ قناة السورس ›", url=f"https://t.me/source_Telemex"
                     ),
                 ],
                 [
@@ -101,16 +105,16 @@ async def start_(client: Client, message: Message):
 @Client.on_message(command(["مبرمج السورس", f"ؤمن", f"ورس", f"السورس"]) & filters.group & ~filters.edited)
 async def start(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/8efbe93b81985bb648d95.jpg",
-        caption=f"""Programmer [EITHON](https://t.me/EITHON1) 𖡼\nᴛᴏ ᴄᴏᴍᴍụɴɪᴄᴀᴛᴇ ᴛᴏɢᴇᴛʜᴇʀ 𖡼\nғᴏʟʟᴏᴡ ᴛʜᴇ ʙụᴛᴛᴏɴѕ ʟᴏᴡᴇʀ 𖡼""",
+        photo=f"https://telegra.ph/file/fe04cf26e3362e78f0a67.jpg",
+        caption=f"""Programmer [Source Telemex](https://t.me/source_Telemex) 𖡼\nᴛᴏ ᴄᴏᴍᴍụɴɪᴄᴀᴛᴇ ᴛᴏɢᴇᴛʜᴇʀ 𖡼\nғᴏʟʟᴏᴡ ᴛʜᴇ ʙụᴛᴛᴏɴѕ ʟᴏᴡᴇʀ 𖡼""",
         reply_markup=InlineKeyboardMarkup(
          [
             [
-                InlineKeyboardButton("℡ ᯓ Ξ𝗜𝗧𝗛𝗢𝗡™ ايثون", url=f"https://t.me/EITHON1"),
+                InlineKeyboardButton("تيليمكس ميوزك : Tᥱᥣᥱꪔᥱꪎ Mᥙ᥉Ꭵᥴ", url=f"https://t.me/source_Telemex"),
             ],
             [
                 InlineKeyboardButton(
-                    "-محمد .", url=f"https://t.me/M_Z_Z_N"
+                    "مطورين السورس", url=f"https://t.me/TELEMEX_Music"
                 ),
             ],
             [
@@ -124,11 +128,11 @@ async def start(client: Client, message: Message):
 async def help(client: Client, message: Message):
     await message.reply_photo(
         photo=f"{DEV_PHOTO}",
-        caption=f"""◍ الاول : هو مطور السورس \n◍ الثاني : هو مطور البوت\n√""",
+        caption=f"""◍ الاول : هو مطورين السورس \n◍ الثاني : هو مطور البوت\n√""",
         reply_markup=InlineKeyboardMarkup(
          [
             [
-                InlineKeyboardButton("𓌹℡ ᯓ Ξ𝗜𝗧𝗛𝗢𝗡™ ايثون", url=f"https://t.me/EITHON1"),
+                InlineKeyboardButton("تيليمكس ميوزك : Tᥱᥣᥱꪔᥱꪎ Mᥙ᥉Ꭵᥴ", url=f"https://t.me/source_Telemex"),
             ],
             [
                 InlineKeyboardButton(
