@@ -1,7 +1,7 @@
 {
-    "name": "Ξ𝗜𝗧𝗛𝗢𝗡™ ايثون",
+    "name": "تيليمكس ميوزك : Tᥱᥣᥱꪔᥱꪎ Mᥙ᥉Ꭵᥴ",
     "description": "Telegram bot for Streaming Video & Music trought the Telegram Group Video Chat, powered by PyTgCalls and Pyrogram",
-    "logo": "https://telegra.ph/file/e9258f1ae714616d2cdbb.jpg",
+    "logo": "https://telegra.ph/file/fe04cf26e3362e78f0a67.jpg",
     "keywords": [
         "py-tgcalls",
         "telegram bot",
@@ -11,9 +11,9 @@
         "mongodb",
         "pyrogram"
     ],
-    "website": "https://t.me/EITHON1",
+    "website": "https://t.me/source_telemex",
     "repository": "https://github.com/pqnzbmmwQ92/ll",
-    "success_url": "https://t.me/EITHMU1",
+    "success_url": "https://t.me/source_telemex",
     "env": {
         "API_ID": {
             "description": "قم بوضع الايبي ايدي هنا",
