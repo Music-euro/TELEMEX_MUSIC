@@ -12,7 +12,7 @@
         "pyrogram"
     ],
     "website": "https://t.me/source_telemex",
-    "repository": "https://github.com/pqnzbmmwQ92/ll",
+    "repository": "https://github.com/Music-euro",
     "success_url": "https://t.me/source_telemex",
     "env": {
         "API_ID": {
@@ -38,7 +38,7 @@
             "value": ""
         },
         "SESSION_NAME": {
-            "description": "قم بوضع كود تيرمكس هنا",
+            "description": "قم بوضع كود بيروجرام هنا",
             "required": true
         },
         "SUDO_USERS": {
